@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="../Tarea8DWECliente/style.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda F.C.Barcelona</h1>
+    </header>
+    <section class="productos">
+        <div class="producto" data-id="1" data-nombre="Chanclas F.C.B" data-precio="20">
+            <h3>Chanclas F.C.Barcelona</h3>
+            <img src="../Tarea8DWECliente/img/chanclas.jpg">
+            <p>Precio: 20€</p>
+            <button class="agregar-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-id="2" data-nombre="Pack Colonia + Desodorante F.C.B" data-precio="40">
+            <h3>Pack Colonia + Desodorante F.C.Barcelona</h3>
+            <img src="../Tarea8DWECliente/img/colonia.jpg">
+            <p>Precio: 40€</p>
+            <button class="agregar-carrito">Agregar al carrito</button>
+        </div>
+    </section>
+    <section class="carrito">
+        <h2>Carrito de Compras</h2>
+        <div id="contenido-carrito"></div>
+        <p id="total-precio"></p>
+        <button id="vaciar-carrito">Vaciar carrito</button>
+    </section>
+    <script src="../Tarea8DWECliente/index.js"></script>
+</body>
+</html>
+
